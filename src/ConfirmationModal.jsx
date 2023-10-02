@@ -1,12 +1,12 @@
 import css from './styles/confirmationModal.module.scss';
-import check from "./images/check.png"
+import check from './images/check.png';
 
 function ConfirmationModal() {
   return (
     <div className={css['modal-container']}>
       <div className={css['text-container']}>
         <div className={css['heading']}>
-          <img alt="green tick" src={check}/>
+          <img alt="green tick" src={check} />
           <h2>Congratulations your jet2 holiday booking has been confirmed</h2>
         </div>
         <p>
