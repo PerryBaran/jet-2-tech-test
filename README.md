@@ -2,13 +2,23 @@
 
 A techinical test created for the junior Front End Developer role at Jet2. Assignment was to create a mobile first responsive modal for confirming Jet2 holiday bookings.
 
+## Table of Contents
+
+1. [Live Preview](#live-preview)
+2. [Dependencies](#dependencies)
+3. [Setup](#setup)
+4. [Available Scripts](#available-scripts)
+5. [New Skills Learnt While Making This Project](#new-skills-learnt-while-making-this-project)
+6. [What I Would Add If I Had More Time](#what-i-would-add-if-i-had-more-time)
+7. [Attribution](#attribution)
+
 ## [Live Preview](https://perrybaran.github.io/jet-2-tech-test/)
 
 ![desktop view](./public/images/jet2-browser.png)
 
 ![mobile view](./public/images/jet2-mobile.png)
 
-## Dependneices
+## Dependencies
 
 1. [React](https://reactjs.org/)
 2. [SASS](https://sass-lang.com/)
@@ -39,12 +49,12 @@ Runs prettier on all files to format code.
 
 Generates a production build of the app and deploys it to GitHub pages.
 
-## New skills learnt while making this project
+## New Skills Learnt While Making This Project
 
 - First time using SASS and a CSS preprocessor in a project.
 - Gained a deeper understanding of the BEM methodology.
 
-## What I would add if I had more time
+## What I Would Add If I Had More Time
 
 - Add unit tests to properly test the component.
 - Changed how multiple modals are displayed. Either by making them spread out over the page as they're created or make them draggable so you can access multiple modals at once. Currently, each new modal just sits on top of the last.
