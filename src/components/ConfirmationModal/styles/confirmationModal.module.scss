@@ -3,17 +3,17 @@ $secondaryColour: #929292;
 $offWhite: #f2f2f2;
 
 .modal-container {
-  width: 100%;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .modal {
-  background-color: $offWhite;
   width: 100%;
   max-width: 600px;
+  background-color: $offWhite;
 
   &__wrapper {
     display: flex;
@@ -29,9 +29,9 @@ $offWhite: #f2f2f2;
 
     &__image {
       aspect-ratio: 1;
+      width: 20px;
       margin-bottom: auto;
       margin-right: 20px;
-      width: 20px;
     }
   }
 
@@ -53,31 +53,40 @@ $offWhite: #f2f2f2;
     width: 100%;
     padding: 8px;
     margin: 2px;
-    font-style: italic;
-    font-weight: bold;
     border: 2px solid $primaryColour;
     border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
 
     &--cancel {
       color: $primaryColour;
       background-color: $offWhite;
+
+      &:hover {
+        color: $offWhite;
+        background-color: $primaryColour;
+      }
     }
 
     &--continue {
       color: $offWhite;
       background-color: $primaryColour;
+
+      &:hover {
+        color: $primaryColour;
+        background-color: $offWhite;
+      }
     }
   }
 }
 
 @media (min-width: 500px) {
-  .modal-container {
+  .modal {
     margin-bottom: 50px;
   }
-  .btn-container {
-    button {
-      width: 100%;
-      max-width: 200px;
-    }
+
+  .modal__button {
+    width: 100%;
+    max-width: 200px;
   }
 }
