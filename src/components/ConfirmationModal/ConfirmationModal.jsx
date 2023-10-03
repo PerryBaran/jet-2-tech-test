@@ -7,7 +7,7 @@ function ConfirmationModal({ onCancelClick }) {
       <div className={css['modal']}>
         <div className={css['modal__wrapper']}>
           <div className={css['modal__header']}>
-            <img alt="green tick" src={check} className={css['modal__header__image']}/>
+            <img alt="green tick" src={check} className={css['modal__header__image']} />
             <h2>Congratulations your jet2 holiday booking has been confirmed</h2>
           </div>
           <p className={css['modal__text']}>
@@ -17,10 +17,14 @@ function ConfirmationModal({ onCancelClick }) {
           </p>
         </div>
         <div className={css['modal__footer']}>
-          <button className={`${css['modal__button']} ${css['modal__button--cancel']}`} onClick={onCancelClick}>Cancel</button>
-          <button className={`${css['modal__button']} ${css['modal__button--continue']}`} onClick={onCancelClick}>Continue</button>
+          <button className={`${css['modal__button']} ${css['modal__button--cancel']}`} onClick={onCancelClick}>
+            Cancel
+          </button>
+          <button className={`${css['modal__button']} ${css['modal__button--continue']}`} onClick={onCancelClick}>
+            Continue
+          </button>
         </div>
-      </div>      
+      </div>
     </div>
   );
 }
