@@ -1,0 +1,81 @@
+$primaryColour: #203240;
+$secondaryColour: #929292;
+$offWhite: #f2f2f2;
+
+.modal-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  background-color: $offWhite;
+  width: 100%;
+  max-width: 600px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid $secondaryColour;
+  }
+
+  &__header {
+    display: flex;
+    color: $primaryColour;
+
+    &__image {
+      aspect-ratio: 1;
+      margin-bottom: auto;
+      margin-right: 20px;
+      width: 20px;
+    }
+  }
+
+  &__text {
+    margin-top: 20px;
+    color: $secondaryColour;
+  }
+
+  &__footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  &__button {
+    width: 100%;
+    padding: 8px;
+    margin: 2px;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid $primaryColour;
+    border-radius: 5px;
+
+    &--cancel {
+      color: $primaryColour;
+      background-color: $offWhite;
+    }
+
+    &--continue {
+      color: $offWhite;
+      background-color: $primaryColour;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .modal-container {
+    margin-bottom: 50px;
+  }
+  .btn-container {
+    button {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}
