@@ -57,8 +57,8 @@ Generates a production build of the app and deploys it to GitHub pages.
 ## What I Would Add If I Had More Time
 
 - Add unit tests to properly test the component.
-- Changed how multiple modals are displayed. Either by making them spread out over the page as they're created or make them draggable so you can access multiple modals at once. Currently, each new modal just sits on top of the last.
-- Used mixins to remove repetitive CSS code and make the styling more readable.
+- Change how multiple modals are displayed. Either by making them spread out over the page as they're created or make them draggable so you can access multiple modals at once. Currently, each new modal just sits on top of the last.
+- Use mixins to remove repetitive CSS code and make the styling more readable.
 
 ## Attribution
 
