@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jet-2-tech-test/static/css/main.b79b3ebb.css",
+    "main.js": "/jet-2-tech-test/static/js/main.1015ce9d.js",
+    "index.html": "/jet-2-tech-test/index.html",
+    "main.b79b3ebb.css.map": "/jet-2-tech-test/static/css/main.b79b3ebb.css.map",
+    "main.1015ce9d.js.map": "/jet-2-tech-test/static/js/main.1015ce9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79b3ebb.css",
+    "static/js/main.1015ce9d.js"
+  ]
+}
